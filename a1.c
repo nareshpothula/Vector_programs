@@ -1,14 +1,21 @@
 
-
-
 #include<stdio.h>
 #include<stdlib.h>
+
+
+
+
 struct TREE
 {
 	struct TREE *left;
 	int num;
 	struct TREE *right;
 };
+
+
+
+
+
 
 void add_TREE(struct TREE **ptr,int);
 void inorder(struct TREE *);
